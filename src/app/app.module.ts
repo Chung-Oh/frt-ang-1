@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeNewComponent } from './employee-new/employee-new.component';
-import { FormsModule } from '@angular/forms'; // lib para Data-Binding(diretiva [(ngModel)] no html)
+import { FormsModule } from '@angular/forms'; // para Data-Binding(diretiva [(ngModel)] no html)
 
 @NgModule({
   declarations: [

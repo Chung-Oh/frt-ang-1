@@ -1,4 +1,5 @@
 <label>Nome:</label>
-<input type="text" [(ngModel)]="name">
+<input type="text" [(ngModel)]="name"> <!-- [(ngModel)] == Two way data binding -->
+<button type="button" (click)="addEmployee()">Adicionar o empregado</button>
 
 <hr> {{ name }}
