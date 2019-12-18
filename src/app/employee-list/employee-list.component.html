@@ -8,7 +8,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr *ngFor="let employee of employees;let i=index;" [id]="'tr'+i">
+		<tr *ngFor="let employee of employeeService.employees;let i=index;" [id]="'tr'+i">
 			<!-- 2 formas de como inserir dados -->
 			<!-- <td>{{ employee.name }}</td> -->
 			<!-- <td>{{ employee.salary }}</td> -->

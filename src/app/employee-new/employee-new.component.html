@@ -1,15 +1,15 @@
 <label>Nome:</label>
-<input type="text" [(ngModel)]="name"><br> <!-- [(ngModel)] == Two way data binding -->
+<input type="text" [(ngModel)]="employee.name"><br> <!-- [(ngModel)] == Two way data binding -->
 <label>Salário:</label>
-<input type="number" [(ngModel)]="salary"><br>
-<div *ngIf="salary <= 1000"> <!-- destroi o elemento, demanda mais processamento que o hidden -->
+<input type="number" [(ngModel)]="employee.salary"><br>
+<div *ngIf="employee.salary >= 5000"> <!-- destroi o elemento, demanda mais processamento que o hidden -->
 	<label>Bônus:</label>
-	<input type="number" [(ngModel)]="bonus"><br>
+	<input type="number" [(ngModel)]="employee.bonus"><br>
 </div>
 <!-- esconde o elemento, simplesmente altera atributo display:none do css -->
-<!-- <div [hidden]="salary >= 1000">
+<!-- <div [hidden]="employee.salary <= 5000">
 	<label>Bônus:</label>
-	<input type="number" [(ngModel)]="bonus"><br>
+	<input type="number" [(ngModel)]="employee.bonus"><br>
 </div> -->
 <button type="button" (click)="addEmployee()">Adicionar o empregado</button>
 
