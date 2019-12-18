@@ -1,4 +1,20 @@
-# FrtAng
+# (My README) Starting studies with Angular 8
+
+The purpose of this repository is just study, learning about the framework.
+
+**Basic**
+
+To work with this framework you need to have NodeJs installed.
+
+- Installing angular `npm install -g @angular/cli`
+- Generate a new app `ng new my-app`
+- Simulate a server `ng serve`
+- Check which package has to be updated `ng update`
+- Updated all packages (if you get a package error, run the command again) `ng update --all`
+
+
+
+# (README Original) FrtAng
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
